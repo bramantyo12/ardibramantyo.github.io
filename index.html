@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/Satoru_Gojo_arrives_on_the_battlefield.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="assets/css/styles.css"
+    />
+
+    <title>Ardiwasdying</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="profile container">
+      <!-- Theme button -->
+      <i
+        class="ri-moon-line change-theme"
+        id="theme-button"
+      ></i>
+
+      <div class="profile__container grid">
+        <div class="profile__data">
+          <div class="profile__border">
+            <div class="profile__perfil">
+              <!-- Insert your image, according to the example size of the portfolio -->
+              <img
+                src="assets/img/_MG_0459.JPG"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <h2 class="profile__name">Muhamad Ardi Bramantyo</h2>
+          <h3 class="profile__profession">Editor | Web Design | 3D Design</h3>
+
+          <ul class="profile__social">
+            <a
+              href="https://www.instagram.com/ardiwasdying/"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://github.com/bramantyo12"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profile__info grid">
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">2</h3>
+            <p class="profile__info-description">
+              Years of <br />
+              work
+            </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">40</h3>
+            <p class="profile__info-description">
+              Completed <br />
+              projects
+            </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">16</h3>
+            <p class="profile__info-description">
+              Satisfied <br />
+              customers
+            </p>
+          </div>
+        </div>
+
+        <div class="profile__buttons">
+          <!-- Insert your CV -->
+          <a
+            download=""
+            href="assets/pdf/m.ardi bramantyo cv.pdf"
+            class="button"
+          >
+            Download CV <i class="ri-download-line"></i>
+          </a>
+
+          <div class="profile__buttons-small">
+            <!-- Insert a real number plus country code -->
+            <a
+              href="https://api.whatsapp.com/send?phone=+6282324928587&text=Hello, more information!"
+              target="_blank"
+              class="button button__small button__gray"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <section class="filters container">
+        <!--=============== FILTERS TABS ===============-->
+        <ul class="filters__content">
+          <button
+            class="filters__button filter-tab-active"
+            data-target="#projects"
+          >
+            Projects
+          </button>
+          <button
+            class="filters__button"
+            data-target="#skills"
+          >
+            Skills
+          </button>
+        </ul>
+
+        <div class="filters__sections">
+          <!--=============== PROJECTS ===============-->
+          <div
+            class="projects__content grid filters__active"
+            data-content
+            id="projects"
+          >
+            <article class="projects__card">
+              <video
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="assets/img/0001-0100.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="movie.ogg"
+                  type="video/ogg"
+                />
+              </video>
+
+              <div class="projects">
+                <div>
+                  <span class="projects__subtitle">Project 1</span>
+                  <h3
+                    class="projects__title"
+                    color="black"
+                  >
+                    3D Blender
+                  </h3>
+                </div>
+              </div>
+            </article>
+            <article class="projects__card">
+              <video
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="assets/img/0001-0159.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="movie.ogg"
+                  type="video/ogg"
+                />
+              </video>
+
+              <div class="projects">
+                <div>
+                  <span class="projects__subtitle">Project 2</span>
+                  <h3
+                    class="projects__title"
+                    color="black"
+                  >
+                    3D Blender
+                  </h3>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!--=============== SKILLS ===============-->
+          <div
+            class="skills__content grid"
+            data-content
+            id="skills"
+          >
+            <div class="skills__area">
+              <h3 class="skills__title">Frontend Developer</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">HTML</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">CSS</h3>
+                      <span class="skills__level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">JavaScript</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">React</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Bootstrap</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Git</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__area">
+              <h3 class="skills__title">Editing Software</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Sony Vegas Pro</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Blender</h3>
+                      <span class="skills__level">If Needed</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">After Effects</h3>
+                      <span class="skills__level">Beginner</span>
+                    </div>
+                  </div>
+                </div>
+    </main>
+
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <span class="footer__copy"> &#169; Ardiwasdying. All rigths reserved </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--script-->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxvmqwz0MJMY0WMliaL8qF0UFyl-q0bkM7f6Mv3cTfy2lDPfmEUwKk-EPj2SyIzkegk/exec';
+    const form = document.forms['ardiwasdying-contacts'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then((response) => console.log('Success!', response))
+        .catch((error) => console.error('Error!', error.message));
+    });
+  </script>
+  </body>
+</html>
